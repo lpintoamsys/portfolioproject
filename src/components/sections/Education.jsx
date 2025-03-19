@@ -16,7 +16,7 @@ const Education = () => {
     return (
         <section
             id="educations"
-            className="min-h-screen flex items-center justify-center py-20 mt-4"
+            className="min-h-screen flex items-center justify-center"
             aria-label="Education Section"
         >
             <RevealOnScroll>

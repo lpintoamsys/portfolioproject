@@ -13,6 +13,7 @@ import { KeyHighlights } from "./components/sections/KeyHighlights";
 import { Education } from "./components/sections/Education";
 import { Skills } from "./components/sections/Skills";
 import { Strengths } from "./components/sections/Strengths";
+import { Experience } from "./components/sections/Experience";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -33,6 +34,7 @@ function App() {
         <Skills />
         <KeyHighlights />
         <Strengths />
+        <Experience />
         <Projects />
         <Education />
         <Certifications />
