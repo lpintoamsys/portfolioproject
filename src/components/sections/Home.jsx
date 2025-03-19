@@ -20,7 +20,7 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className={`text-center z-10 px-4 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-right bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent transition-all duration-500 hover:from-pink-500 hover:to-yellow-500 ease-in-out">
             Hi, I'm Lawrence Godwin Pinto
           </h1>
 
@@ -30,14 +30,14 @@ export const Home = () => {
           <div className="flex justify-center space-x-4">
             <a
               href="#projects"
-              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition-all duration-300 transform hover:scale-105"
-            >
+              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition-all duration-300 transform hover:scale-105
+              gradient-bg-blue-500 hover:from-pink-500 hover:to-yellow-500">
               View Projects
             </a>
 
             <a
               href="#contact"
-              className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-300 transform hover:scale-105 hover:bg-blue-500/10"
+              className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-300 transform hover:scale-105 hover:bg-blue-500/10 bg-black"
             >
               Contact Me
             </a>
