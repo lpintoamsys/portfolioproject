@@ -16,15 +16,15 @@ const Education = () => {
     return (
         <section
             id="educations"
-            className="min-h-screen flex items-center justify-center"
+            className="min-h-screen flex items-center justify-center py-20 mb-0"
             aria-label="Education Section"
         >
             <RevealOnScroll>
-                <div className="max-w-7xl mx-auto px-4 w-[100%] flex m-10">
+                <div className="max-w-7xl mx-auto px-4 w-full flex m-10 mb-0">
                     <h1 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
                         Education Accreditations
                     </h1>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {education.map((edu, index) => (
                             <div
                                 key={index}
@@ -43,4 +43,3 @@ const Education = () => {
 };
 
 export { Education };
-// Compare this snippet from src/components/sections/KeyHighlights.jsx:

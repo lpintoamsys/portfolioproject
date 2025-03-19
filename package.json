@@ -1,6 +1,6 @@
 {
   "name": "beautiful-portfolio",
-  "homepage": "https://machadop1407.github.io/pedrotech-portfolio",
+  "homepage": "https://lpintoamsys.github.io/portfolioproject",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +13,6 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@heroicons/react": "^1.0.6",
     "@tailwindcss/vite": "^4.0.0",
     "clsx": "^2.1.1",
     "emailjs-com": "^3.2.0",

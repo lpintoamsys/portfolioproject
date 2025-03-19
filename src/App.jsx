@@ -31,13 +31,14 @@ function App() {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
+        <Certifications />
         <Skills />
         <KeyHighlights />
         <Strengths />
         <Experience />
         <Projects />
         <Education />
-        <Certifications />
+ 
         <Contact />
       </div>
     </>

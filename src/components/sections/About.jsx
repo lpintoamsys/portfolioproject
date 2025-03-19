@@ -5,10 +5,10 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center mb-0"
+      className="className=min-h-screen flex items-center justify-center py-20 mb-0"
     >
       <RevealOnScroll>
-        <div className="max-w-7xl mx-auto px-4 w-[100%] flex m-10 mt-0">
+        <div className="max-w-7xl mx-auto px-4 w-[100%] flex m-10 mb-0">
           <h1 className="text-3xl font-bold mb-0 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {" "}
             About Me

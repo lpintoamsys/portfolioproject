@@ -37,6 +37,15 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             </a>
 
             <a
+              href="#certifications"
+              className="text-gray-300 hove:text-white transition-colors"
+            >
+              {" "}
+              Certifications
+            </a>
+
+
+            <a
               href="#skills"
               className="text-gray-300 hove:text-white transition-colors"
             >
@@ -57,7 +66,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               className="text-gray-300 hove:text-white transition-colors"
             >
               {" "}
-              Strenths
+              Strengths
             </a>
 
             <a
@@ -83,15 +92,6 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               {" "}
               Education{" "}
             </a>
-
-            <a
-              href="#certifications"
-              className="text-gray-300 hove:text-white transition-colors"
-            >
-              {" "}
-              Certifications
-            </a>
-
             <a
               href="#contact"
               className="text-gray-300 hove:text-white transition-colors"
