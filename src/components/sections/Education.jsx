@@ -17,7 +17,6 @@ const Education = () => {
         <section
             id="educations"
             className="min-h-screen flex items-center justify-center py-20 mb-0"
-            aria-label="Education Section"
         >
             <RevealOnScroll>
                 <div className="max-w-7xl mx-auto px-4 w-full flex m-10 mb-0">

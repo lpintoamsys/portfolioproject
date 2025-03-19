@@ -37,7 +37,6 @@ export const Strengths = () => {
         <section
             id="strengths"
             className="min-h-screen flex items-center justify-center py-20"
-            aria-label="Key Achievements Section"
         >
             <RevealOnScroll>
                 <div className="max-w-7xl mx-auto px-4 w-[100%] flex m-10">

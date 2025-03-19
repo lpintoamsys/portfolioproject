@@ -121,7 +121,7 @@ const experiencedetails = [
 
 export const Experience = () => {
     return (
-        <section id="experience" Aria aria-label="Skills Section" className="min-h-screen flex items-center justify-center py-20 mb-0">
+        <section id="experience" className="min-h-screen flex items-center justify-center py-20 mb-0">
             <RevealOnScroll>
                 <div className="max-w-7xl mx-auto px-4 flex m-10 mb-0">
                     <h2 className="text-3xl font-bold mb-12 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">

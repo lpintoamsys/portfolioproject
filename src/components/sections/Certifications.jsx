@@ -27,7 +27,6 @@ export const Certifications = () => {
         <section
             id="certifications"
             className="flex items-center justify-center py-10" // Reduced py-20 to py-10
-            aria-labelledby="certifications-heading"
         >
             <RevealOnScroll>
                 <div className="max-w-7xl mx-auto px-4">
