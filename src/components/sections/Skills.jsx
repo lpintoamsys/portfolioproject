@@ -9,7 +9,7 @@ export const Skills = () => {
         { title: "Architecture", skills: ["Microservices", "Monolithic", "Event-Driven"] },
         { title: "Cloud", skills: ["AWS", "Azure", "Cloud Strategy", "Cloud Management", "Cloud Cost Optimization"] },
         { title: "Frontend", skills: ["React", "TypeScript", "TailwindCSS", "JavaScript", "NextJs"] },
-        { title: "Backend", skills: ["Node.js", "Java", "Spring Boot"] },
+        { title: "Backend", skills: ["Node.js", "Java", "Spring Boot", "Kafka", "Redis", "REST API"] },
         { title: "Database", skills: ["MySQL", "PostgreSQL", "MongoDB"] },
         { title: "DevOps", skills: ["Docker", "Kubernetes", "Jenkins", "Git", "CI/CD", "Azure Pipelines", "DevSecOps"] },
         { title: "Monitoring", skills: ["Cloudwatch", "Grafana/Prometheus", "Sentry", "Slack"] }

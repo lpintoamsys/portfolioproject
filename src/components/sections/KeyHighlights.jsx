@@ -13,11 +13,11 @@ const achievements = [
     },
     {
         title: "HL7 Implementation",
-        description: "Managed Veteran Affairs (VA) HL7/FHIR Implementation project implementation which aims to streamline healthcare data interoperability within the VA system."
+        description: "Managed Veteran Affairs (VA) HL7/FHIR project implementation which aims to streamline healthcare data interoperability within the VA system."
     },
     {
         title: "API Implementation",
-        description: "Managed development and implementation of 300+ API's with improvement strategies including caching, pooling, CDN. This involved REST, Websockets and Webhooks."
+        description: "Managed development of 300+ API's with improvement strategies including caching, pooling, CDN. This involved REST, Websockets and Webhooks."
     },
     {
         title: "Team Management",
@@ -36,12 +36,18 @@ const achievements = [
         description: "Reduced the Cloud cost by 40% across AWS and Azure."
     },
     {
-        title: "Generative AI",
-        description: "Managed implementation of AI Projects (Symptoms Checker, Image Analysis, Video to Text Conversion, Summarization)."
+        "title": "Generative AI",
+        "description": "Managed implementation of AI Projects:",
+        "projects": [
+            "Symptoms Checker",
+            "Image Analysis",
+            "Video to Text Conversion",
+            "Notes Summarization"
+        ]
     },
     {
         title: "Migration of Legacy to Modern Applications",
-        description: "Successfully handled the migration of Legacy Application to Modern Architecture."
+        description: "Successfully handled the migration of Legacy Apps to Modern MicroservicesArchitecture."
     },
     {
         title: "Agile Transformation Success",
@@ -61,24 +67,34 @@ export const KeyHighlights = () => {
     return (
         <section
             id="keypoints"
-            className="min-h-screen flex items-center justify-center py-20"
+            className="className=min-h-screen flex items-center justify-center py-20 mb-0"
         >
             <RevealOnScroll>
-                <div className="max-w-7xl mx-auto px-4 w-[100%] flex m-10">
+                <div className="max-w-7xl mx-auto px-4 w-[100%] flex m-10 mb-0">
                     <h1 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
                         Key Achievements
                     </h1>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full ">
                         {achievements.map((achievement, index) => (
-                            <div 
-                                key={index} 
+                            <div
+                                key={index}
                                 className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-transform duration-300 ease-in-out transform-gpu animate-fade-in"
                                 style={{ animationDelay: `${index * 100}ms` }} // Staggered animation
                             >
                                 <h2 className="text-xl font-bold mb-4">{achievement.title}</h2>
-                                <p className="list-disc list-inside text-gray-400">
-                                    {achievement.description}
-                                </p>
+
+                                {achievement.projects ? (
+                                    <>
+                                        <p className="text-gray-400 mb-2">{achievement.description}</p>
+                                        <ul className="list-disc list-inside text-gray-300 pl-4">
+                                            {achievement.projects.map((project, idx) => (
+                                                <li key={idx} className="mb-1">{project}</li>
+                                            ))}
+                                        </ul>
+                                    </>
+                                ) : (
+                                    <p className="text-gray-400">{achievement.description}</p>
+                                )}
                             </div>
                         ))}
                     </div>

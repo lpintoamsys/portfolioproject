@@ -25,9 +25,7 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I'm a Agile / Technical Program Manager, Senior Engineering Manager, Digital Transformation, Generative AI, Delivery Manager who loves crafting clean, scalable, secure web and mobile applications
-            applications. My goal is to build solutions that offer both
-            exceptional performance and a delightful user experience with futuristic architecture.
+            I'm a Agile / Technical Program Manager, Senior Engineering Manager, Digital Transformation, Generative AI, Delivery Manager who loves taking complete ownership and acountaibility of crafting clean, scalable, secure web and mobile applications applications, right from planning, design to post production. My goal is to build solutions that offer both exceptional performance and a delightful user experience with futuristic architecture.
           </p>
           <div className="flex justify-center space-x-4">
             <a
