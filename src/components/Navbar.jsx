@@ -8,9 +8,9 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="font-mono text-xl font-bold text-white">
+          <a href="#home" className="font-mono text-sm font-bold text-white">
             {" "}
-            pedro<span className="text-blue-500">.tech</span>{" "}
+            lawrence<span className="text-blue-500">.tech</span>{" "}
           </a>
 
           <div
@@ -35,6 +35,39 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               {" "}
               About{" "}
             </a>
+
+            <a
+              href="#skills"
+              className="text-gray-300 hove:text-white transition-colors"
+            >
+              {" "}
+              Skills{" "}
+            </a>
+
+            <a
+              href="#keypoints"
+              className="text-gray-300 hove:text-white transition-colors"
+            >
+              {" "}
+              Achievements
+            </a>
+
+            <a
+              href="#strengths"
+              className="text-gray-300 hove:text-white transition-colors"
+            >
+              {" "}
+              Strenths
+            </a>
+
+            <a
+              href="#strengths"
+              className="text-gray-300 hove:text-white transition-colors"
+            >
+              {" "}
+              Experience
+            </a>
+
             <a
               href="#projects"
               className="text-gray-300 hove:text-white transition-colors"
@@ -42,6 +75,23 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               {" "}
               Projects{" "}
             </a>
+
+            <a
+              href="#educations"
+              className="text-gray-300 hove:text-white transition-colors"
+            >
+              {" "}
+              Education{" "}
+            </a>
+
+            <a
+              href="#certifications"
+              className="text-gray-300 hove:text-white transition-colors"
+            >
+              {" "}
+              Certifications
+            </a>
+
             <a
               href="#contact"
               className="text-gray-300 hove:text-white transition-colors"

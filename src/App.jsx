@@ -8,6 +8,11 @@ import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
 import "./index.css";
 import { Contact } from "./components/sections/Contact";
+import { Certifications } from "./components/sections/Certifications";
+import { KeyHighlights } from "./components/sections/KeyHighlights";
+import { Education } from "./components/sections/Education";
+import { Skills } from "./components/sections/Skills";
+import { Strengths } from "./components/sections/Strengths";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -25,7 +30,12 @@ function App() {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
+        <Skills />
+        <KeyHighlights />
+        <Strengths />
         <Projects />
+        <Education />
+        <Certifications />
         <Contact />
       </div>
     </>
