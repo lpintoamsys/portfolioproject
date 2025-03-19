@@ -1,7 +1,8 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import { useEffect } from "react";
+import React from "react";
 
-const strenghts = [
+export const strenghts = [
     {
         title: "Program & Project Management",
         description: "Expert in Agile, Scrum, and SAFe methodologies , managing end-to-end program lifecycles from inception to execution. Skilled in  driving KPIs, OKRs, and metrics-based decision-making , while optimizing budgets, resources, timelines, and risk mitigation."
@@ -63,6 +64,8 @@ export const Strengths = () => {
     );
 };
 
+
+
 // CSS for fade-in animation
 const styles = `
 @keyframes fade-in {
@@ -88,3 +91,6 @@ export const GlobalStyles = () => {
         document.head.appendChild(styleSheet);
     }, []);
 };
+
+
+

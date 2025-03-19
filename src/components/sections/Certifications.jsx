@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import React from "react";
 
 const certifications = [
     {
@@ -60,3 +61,5 @@ export const Certifications = () => {
         </section>
     );
 };
+
+export default Certifications;

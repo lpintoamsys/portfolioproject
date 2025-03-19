@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import React from "react";
+
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -105,3 +107,5 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     </nav>
   );
 };
+
+export default Navbar;

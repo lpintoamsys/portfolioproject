@@ -1,6 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import React from "react";
 
-export const About = () => {
+const About = () => {
 
   return (
     <section
@@ -25,3 +26,5 @@ export const About = () => {
     </section>
   );
 };
+
+export { About };

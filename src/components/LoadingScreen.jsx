@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import React from "react";
 
 export const LoadingScreen = ({ onComplete }) => {
   const [text, setText] = useState("");
@@ -34,3 +35,5 @@ export const LoadingScreen = ({ onComplete }) => {
     </div>
   );
 };
+
+export default LoadingScreen;

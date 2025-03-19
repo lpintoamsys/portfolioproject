@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import React from "react";
 
 const experiencedetails = [
     {
@@ -149,3 +150,5 @@ export const Experience = () => {
         </section>
     );
 };
+
+export default Experience;

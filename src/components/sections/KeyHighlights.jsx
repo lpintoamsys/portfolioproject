@@ -1,5 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import { useEffect } from "react";
+import React from "react";
 
 const achievements = [
     {
@@ -112,3 +113,5 @@ export const GlobalStyles = () => {
         document.head.appendChild(styleSheet);
     }, []);
 };
+
+export default KeyHighlights;

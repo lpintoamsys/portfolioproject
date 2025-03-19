@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import React from "react";
 
 export const Projects = () => {
   return (
@@ -162,3 +163,5 @@ export const Projects = () => {
     </section>
   );
 };
+
+export default Projects;

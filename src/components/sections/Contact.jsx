@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import React from "react";
 
 export const Contact = () => {
   return (
@@ -26,3 +27,5 @@ export const Contact = () => {
     </section>
   );
 };
+
+export default Contact;

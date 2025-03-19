@@ -1,5 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import { useEffect, useState } from "react";
+import React from "react";
+
 
 export const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -47,3 +49,5 @@ export const Home = () => {
     </section>
   );
 };
+
+export default Home;

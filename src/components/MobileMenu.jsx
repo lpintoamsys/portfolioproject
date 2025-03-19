@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import React from "react";
 
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
@@ -135,3 +136,5 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
     </div>
   );
 };
+
+export default MobileMenu;

@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import React from "react";
 
 export const Skills = () => {
     const skillsData = [

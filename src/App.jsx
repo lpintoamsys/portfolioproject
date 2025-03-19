@@ -1,4 +1,5 @@
 import { useState } from "react";
+import React from "react";
 import "./App.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
@@ -38,7 +39,6 @@ function App() {
         <Experience />
         <Projects />
         <Education />
- 
         <Contact />
       </div>
     </>
